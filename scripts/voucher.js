@@ -50,10 +50,10 @@ let total_amount=+(amount)
    let real_price=voucher.price;
    if(total_amount>real_price) {
      localStorage.setItem("purchase", JSON.stringify(voucher))
-     alert("purchased sucessfull")
+     alert("Hurray! purchase successful")
    }
    else {
-     alert("sorry")
+     alert("Sorry! insufficient balance")
    }
  
 
